@@ -1,0 +1,171 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color:white;
+}
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.menu{
+background-color: #BE0E2F;
+}
+
+
+
+
+.page-header {
+    border-bottom: 2px solid  #428bca;;
+}
+
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+    }
+    
+   .navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar .navbar-default .navbar-fixed-top{
+background-color: #BE0E2F;
+}
+
+.navbar-default {
+    background-image:none;
+    background-color:#BE0E2F;
+}
+
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input,
+select,
+textarea {
+    max-width: 300px;
+}*/
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+.marginRight10 {
+  margin-right: 10px;
+}
+.width200 {
+    width: 200px;
+}
+.width300 {
+    width: 300px;
+}
+.menu {
+    background-color: #BE0E2F;
+
+}
+.menubrand
+{
+    color: white;
+  float: left;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+
+}
+
+.menubrand:hover,
+.menubrand:focus {
+  text-decoration: none;
+}
+.menubrand:hover,
+.menubrand:focus {
+    color: white;
+    font-weight: bold;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+     .menubrand {
+    margin-left: -15px;
+  }
+}
+.menu-nav > li >a:hover,
+.menu-nav > li >a:focus
+{
+    font-weight: bold;
+
+}
+.menu-nav > li > a {
+    color: white !important;
+}
+
+
+.content-margin{
+ margin-top:50px;
+}
+
+.form-control {
+        border: 1px solid #337ab7;
+}

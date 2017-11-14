@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--<link rel="icon" href="../../favicon.ico">-->
+
+    <title>BARS- Wireframe Demo</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+
+    <script src="./js/menu.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div id="menuId"></div>
+
+    <div class="container">
+
+        <div class="page-header">
+            <h1>Consultant - Cost Invoice</h1>
+        </div>
+
+        <table class="table table-striped">
+            <th>#</th>
+            <th>Consultant Invoice Number</th>
+            <th>Cost Value</th>
+            <th>Currency</th>
+            <th>Date Processed</th>
+            <th>Status</th>
+            <th>Edit</th>
+            <tr>
+                <td>1</td>
+                <td>AA-1234568</td>
+                <td>1450</td>
+                <td>Euro</td>
+               <td>31-05-2017</td>
+               <td>Competed</td>
+                <td><a href="#"><span class="glyphicon glyphicon-pencil" ></span> </a></td>
+                
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>AA-1234569</td>
+                <td>2500</td>
+                <td>Euro</td>
+               <td>31-05-2017</td>
+                <td>On-Hold</td>
+                <td><a href="#"><span class="glyphicon glyphicon-pencil" ></span> </a></td>
+            </tr>
+        </table>
+        <div class="page-header">
+            <h1>Add Cost Invoice</h1>
+        </div>
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Consultant Invoice Number</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" id="inputEmail3" placeholder="Consultant Invoice Number" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">Cost Value</label>
+                <div class="col-sm-6">
+                    <input type="number" class="form-control" id="inputPassword3" placeholder="Cost Value" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Consultant Currency</label>
+                <div class="col-sm-6">
+                    <select class="form-control" disabled>
+                         <option></option>
+                <option>GPB</option>
+                <option selected>Euro</option>
+                <option>US Doller</option>
+                </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">Date Processed</label>
+                <div class="col-sm-6">
+                    <input type="date" value="2017-05-31" class="form-control" id="inputPassword3" placeholder="date" required >
+                </div>
+            </div>
+
+             <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Status</label>
+                <div class="col-sm-6">
+                    <select class="form-control">
+                         <option></option>
+                <option>Completed</option>
+                <option >Rejected</option>
+                <option>On-Hold</option>
+                </select>
+                </div>
+            </div>
+
+             <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">Comments</label>
+                <div class="col-sm-6">
+                    <textarea  class="form-control" id="Comments" placeholder="Comments" ></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-6">
+                    <a href="./consultantInvoice.html" class="btn btn-primary">Save</a> <a href="./consultantInvoice.html"
+                        class="btn btn-default">Back</a>
+                </div>
+
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>

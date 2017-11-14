@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--<link rel="icon" href="../../favicon.ico">-->
+
+    <title>BARS- Wireframe Demo</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/menu.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div id="menuId"></div>
+
+
+    <div class="container">
+
+        <div class="page-header">
+            <h1>Sessions - Communication Skills - Fundamentals Workshops</h1>
+        </div>
+        <div class="pull-right" style="margin-bottom:10px;">
+            <a href="./SessionCreate.html" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span> Add Session</a>
+        </div>
+
+        <table class="table table-striped">
+            <th>#</th>
+            <th>Session Name</th>
+            <th>RM</th>
+            <th>PRC</th>
+            <th>Invoicer</th>
+            <th>Cost Centre</th>
+            <th>Is Prospect</th>
+            <th>Edit</th>
+            <th>Events</th>
+            <th>Delete</th>
+            <tr>
+                <td>1</td>
+                <td>Proposal design & writing, client meeting </td>
+                <td>OG-RM1</td>
+                <td>OG-PRC1</td>
+                <td>OG-Invoicer</td>
+                <td>UK</td>
+                <td>No</td>
+                <td><a href="./ProjectEdit.html"><span class="glyphicon glyphicon-pencil" ></span> </a></td>
+                <td><a href="./Event.html"><span class="glyphicon glyphicon-th-list" ></span> </a></td>
+                <td><a href="#"><span class="glyphicon glyphicon-remove"></span> </a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Prospect</td>
+                <td>OG-RM1</td>
+                <td>OG-PRC1</td>
+                <td>OG-Invoicer</td>
+                <td>UK</td>
+                <td>Yes</td>
+                <td><a href="#"><span class="glyphicon glyphicon-pencil" ></span> </a></td>
+                <td><a href="#" disabled><span class="glyphicon glyphicon-th-list"></span></a></td>
+                <td><a href="#"><span class="glyphicon glyphicon-remove"></span></a></td>
+            </tr>
+        </table>
+        <div class="pull-right">
+            <a href="./project.html" class="btn btn-primary"> <span class="glyphicon glyphicon-backward"></span> Back </a>
+        </div>
+    </div>
+    <!-- /container -->
+
+</body>
+
+</html>
